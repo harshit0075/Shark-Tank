@@ -1,5 +1,5 @@
 # 💰 Shark Tank Masai 🦈
-### JS-VITE-WITH-MOCK-SERVER
+<!-- ### JS-VITE-WITH-MOCK-SERVER
 
 Please do NOT use VSCode live-server. It will not work. Use the npm commands suggested to you here.
 
@@ -18,7 +18,7 @@ npm run start
 ## Start both BE & FE in a single command
 ```
 npm run watch
-```
+``` -->
 # Important files
 ```
 ├── index.html
@@ -27,7 +27,7 @@ npm run watch
 └── styles
     └── style.css
 ```
-## Maximum Marks - 15
+<!-- ## Maximum Marks - 15
 
 - Use node version(LTS) should be `v16.16.0`
 - Don't change/override package.json
@@ -61,16 +61,16 @@ Your task is to build ***` Shark Tank Masai`*** app where different entrepreneur
 ### Problem 1. List of pitches on page load [3]
 On page `load`, a list of all `pitches` should be shown in the  `div#data-list-wrapper`. 
 
-Expected markup (Pitch card list):
+Expected markup (Pitch card list): -->
 <!-- ![landingpage markup]() -->
 <img src="https://i.imgur.com/a6YoVWO.png" width="100%"/>
-- The `div.card` is a card appended to the div with `div.card-list` where all such cards are appended.
+<!-- - The `div.card` is a card appended to the div with `div.card-list` where all such cards are appended. -->
 
-Expected markup (example single card div inside card-list div): 
+<!-- Expected markup (example single card div inside card-list div):  -->
 <!-- ![pitchMarkUp]() -->
 <img src="https://i.imgur.com/HeBZdOx.png" width="100%"/>
 
-- **Markup - elements, classes & IDs should be identical to the above screenshot.**
+<!-- - **Markup - elements, classes & IDs should be identical to the above screenshot.**
 
 - The **Card** with `div.card` and `data-id={id of div}` having two child div 
   1. The `div.card-img` in this image of the pitch is present.
@@ -85,7 +85,7 @@ Expected markup (example single card div inside card-list div):
         -  data-id= id of the pitch 
     - button with `button. card-button` with `Delete` text 
         -  class= card-button
-        -  data-id= id of the pitch
+        -  data-id= id of the pitch -->
 
 Expected UI (example card):
 <!-- ![pitchUI]() -->
@@ -95,20 +95,20 @@ Data mapping:
 <!-- ![dataMarkUp]() -->
 <img src="https://i.imgur.com/r1o2bXu.png" width="100%"/>
 
-- The data should be fetched from `${baseServerURL}/pitches`
+<!-- - The data should be fetched from `${baseServerURL}/pitches`
 - The pitches should be shown on page `load`
 
-### Problem 2. Ability to add new Pitches [2]
+### Problem 2. Ability to add new Pitches [2] -->
 <!-- ![add pitch ] -->
 <img src="https://i.imgur.com/AL1MsGd.png" width="100%"/>
 
-- make a 'POST' request at ```${baseServerURL}/pitches```
-- **` the page must not reload the list must update`**  otherwise you will lose the marks.
+<!-- - make a 'POST' request at ```${baseServerURL}/pitches```
+- **` the page must not reload the list must update`**  otherwise you will lose the marks. -->
 
 <!-- ![added pitch UI]() -->
 <img src="https://i.imgur.com/VgpjqId.png" width="100%"/>
 
-### Problem 3. Ability to delete a Pitch [2]
+<!-- ### Problem 3. Ability to delete a Pitch [2]
 - In each pitch, the card adds a button `Delete` with `button.card-button` On clicking this button particular pitch must be removed from DOM as well as `db.json`.
 
 - make a 'DELETE' request at ```${baseServerURL}/pitches/{pitchId}```
@@ -127,11 +127,11 @@ Data mapping:
 - `#update-pitch-image` should be populated with the `image URL` of the pitch
 - `#update-pitch-founder` should be populated with the `founder` of the pitch
 - `#update-pitch-category` should be populated with the `category` of the pitch
-- `#update-pitch-price` should be populated with the `price` of the pitch
+- `#update-pitch-price` should be populated with the `price` of the pitch -->
 
 <img src="https://i.imgur.com/yM4Eorz.png" width="100%"/>
 
-- make a 'PATCH' request at ```${baseServerURL}/pitches/${pitchId}``` to updated *title , image ,founder ,category and price*
+<!-- - make a 'PATCH' request at ```${baseServerURL}/pitches/${pitchId}``` to updated *title , image ,founder ,category and price*
 - **` the page must not reload the list must update`**  otherwise you will lose the marks.
 
 ### Problem 5. Ability to update only the Price [1]
@@ -148,12 +148,12 @@ Data mapping:
 
 - make a 'PATCH' request at ```${baseServerURL}/pitches/${pitchId}```
 
-### Problem 6. Sorting Pitches Based on Price [1]
+### Problem 6. Sorting Pitches Based on Price [1] -->
 - Sorting for `Low to High` UI:
 <!-- ![sort Low to high] -->
 <img src="https://i.imgur.com/zMSdKGK.png" width="100%"/>
 
-With the click of the button `#sort-low-to-high`, the pitch list should be sorted in ascending order based on their *price*.
+<!-- With the click of the button `#sort-low-to-high`, the pitch list should be sorted in ascending order based on their *price*.
 
 With the click of the button `#sort-high-to-low`, the pitch list should be sorted in descending order based on their *price*.
 
@@ -163,12 +163,12 @@ You may use any approach of your choice for sorting. You may sort the available 
  You have to create three types of filters as
  1. ***Food***
  2. ***Electronics***
- 3. ***Personal Care***
+ 3. ***Personal Care*** -->
 - Filtering for `Electronics` UI:
 <!-- ![filter fantacy] -->
 <img src="https://i.imgur.com/19I0mX7.png" width="100%"/>
 
-When the button `#filter-Food` is clicked, the pitch list is expected to be filtered. It should only show the pitches whose `category` is ***`Food`***.
+<!-- When the button `#filter-Food` is clicked, the pitch list is expected to be filtered. It should only show the pitches whose `category` is ***`Food`***.
 
 When the button `#filter-Electronics` is clicked, the pitch list is expected to be filtered. It should only show the pitches whose `category` is ***`Electronics`***.
 
@@ -178,7 +178,7 @@ You may use any approach of your choice for filtering. You may filter the availa
 
 ### Problem 8. Search by title/founder [1+1]
 - To implement search functionality on top there is a select tag with *options* as to search by category  
- 1. ***`title`***
+ 1. ***`title`*** -->
 <!-- ![search by title] -->
 
 <img src="https://i.imgur.com/BKcnVKG.png" width="100%"/>
@@ -187,7 +187,7 @@ You may use any approach of your choice for filtering. You may filter the availa
 
 <img src="https://i.imgur.com/3GZzTfg.png" width="100%"/>
 
-A select tag (`select#search-by-select`) with options as
+<!-- A select tag (`select#search-by-select`) with options as
   1. Title
   2. Founder is already created
 every time you have to select eighter option, next to it there is an input box (`input#search-by-input`) you have to enter the title name/founder name if it is included in the title/founder's name respectively show those pitches only after clicking a search button(`button#search-by-button`)
@@ -204,4 +204,4 @@ You may use any approach of your choice for search functionality. You may use th
 - so we request you to read the problem carefully and debug it before itself
 - we also request you not just submit it last minute
 - try to keep one submission at a time
-- Use `${baseServerURL}/what-ever-route` for server url & not `localhost:9090/what-ever-route` in your solution. Failing to do so may cause all the tests to fail.
+- Use `${baseServerURL}/what-ever-route` for server url & not `localhost:9090/what-ever-route` in your solution. Failing to do so may cause all the tests to fail. -->
