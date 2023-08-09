@@ -63,12 +63,12 @@ On page `load`, a list of all `pitches` should be shown in the  `div#data-list-w
 
 Expected markup (Pitch card list): -->
 <!-- ![landingpage markup]() -->
-<img src="https://i.imgur.com/a6YoVWO.png" width="100%"/>
+<!-- <img src="https://i.imgur.com/a6YoVWO.png" width="100%"/> -->
 <!-- - The `div.card` is a card appended to the div with `div.card-list` where all such cards are appended. -->
 
 <!-- Expected markup (example single card div inside card-list div):  -->
 <!-- ![pitchMarkUp]() -->
-<img src="https://i.imgur.com/HeBZdOx.png" width="100%"/>
+<!-- <img src="https://i.imgur.com/HeBZdOx.png" width="100%"/> -->
 
 <!-- - **Markup - elements, classes & IDs should be identical to the above screenshot.**
 
